@@ -1,0 +1,377 @@
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+  /*****************************************************/
+ /**************     Top Menu Area   ****************/
+/*****************************************************/
+
+.container{
+	max-width:1000px;
+	width:95%;
+	margin:auto;
+}
+
+.navbar-default{
+	border-color:transparent;
+	background-color:#F9F9F9 ;
+}
+.navbar{
+	margin-bottom:0;
+}
+
+/* Left Menu Icon */
+
+.navbar-nav{}
+.my-navbar li{
+	background:linear-gradient(#D1D1D1,#E0E0E0);
+	height:60px;
+	width:55px;
+}
+.my-navbar li a{}
+
+.navbar-nav li a i{
+	font-size:25px;
+	text-align:center;
+}
+.my-navbar li a i{
+	font-size:25px;
+	text-align:center;
+}
+
+/* Logo Style */
+
+.navbar-brand{
+	padding:5px 0;
+	width:50px;
+	height:60px;
+}
+.navbar-brand img{
+	width:100%;
+	height:100%;
+	border-radius:10px;
+}
+
+.fa-mobile-phone{}
+
+
+  /*****************************************************/
+ /**************       Main Menu Area *****************/
+/*****************************************************/
+
+.main-menu-area{
+	background:#419AEE;
+	border-bottom:2px solid #FFF;
+}
+
+.main-menu{}
+.main-menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.main-menu ul li{
+	float:left;
+	border-right:1px solid #FFF;
+	width:25%;
+}
+.main-menu ul li:first-child{
+	border-left:1px solid #FFF;
+}
+.main-menu ul li a{
+	text-decoration:none;
+	display:block;
+	background:#419AEE;
+	color:#FFFFFF;
+	text-align:center;
+	padding:13px 0;
+}
+.main-menu ul li a span{
+	text-transform:capitalize;
+	font-size:17px;
+	font-weight:400;
+}
+.main-menu ul li a i{
+	font-size:22px;
+}
+.glyphicon-user{
+	font-size:19px !important;
+}
+  /*****************************************************/
+ /**************       Main Content Area  *************/
+/*****************************************************/
+
+.main-content-area{
+	background:url('http://i.imgur.com/dS0sb53.jpg') no-repeat scroll 0 0 / 100% 100% ;
+	height:500px;
+}
+
+.image-content{
+	text-align:center;
+	color:#FFF;
+	background:rgba(0, 0, 0,.2);
+	margin-top:20px;
+	padding-bottom:20px;
+}
+.image-content h2{
+	font-size:23px;
+	padding-top:20px;
+	padding-bottom:40px;
+	font-weight:500;
+}
+.image-content p{
+	font-size:16px;
+}
+
+/* Button */
+.all-buttons{
+	margin-top:60px;
+}
+.button-a{}
+.button-a a{
+	display: inline-block;
+	padding: 11px 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 17px;
+	border: 2px solid #FFF;
+	border-radius: 5px;
+	color: #FFF;
+	font-weight: 400;
+	position:relative;
+	z-index:1;
+	overflow:hidden;
+}
+
+.button-a a:after{
+	content:"";
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:#E36199;
+	top:0;
+	left:-100%;
+	z-index:-1;
+	opacity:0;
+	transition:.7s;
+}
+.button-a a:hover:after{
+	opacity:1;
+	left:0;
+}
+
+.button-one{
+	float:right;
+}
+
+.button-three{
+	text-align:center;
+}
+
+  /*****************************************************/
+ /**************    Chat Page Style    ****************/
+/*****************************************************/
+
+.main-content-chat-area{}
+
+.chat-area{
+	overflow: hidden;
+	border: 1px solid #DDD;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+.chat-heading{
+	background: #4DB4A6;
+	overflow: hidden;
+	color: #FFF;
+	padding: 20px 0;
+	font-size:20px;
+	cursor:pointer;
+}
+.chat-heading-left{}
+.chat-heading-left p{}
+.chat-heading i{
+	padding-right:10px;
+}
+
+.chat-heading-right{
+	float:right;
+}
+.chat-heading-right p{
+	border: 1px solid #FFF;
+	padding: 7px 15px;
+	border-radius: 5px;
+}
+.chat-heading-right p i{}
+
+
+.all-chat-text{
+	padding-bottom: 20px;
+	border-bottom: 2px solid #ddd;
+	overflow: hidden;
+	background:#F0F8FF;
+}
+
+.name-text{}
+
+.name-image{
+	width:56px ;
+	height:60px;
+}
+.name-image img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	padding-top: 10px;
+}
+
+.name-text-content{
+	overflow: hidden;
+	border-bottom: 2px dotted #DDD;
+	width: 95%;
+	margin: auto;
+	padding: 10px 0;
+}
+.name-text h3{
+	font-size:18px;
+}
+.name-text p{
+	color:#666;
+	font-size:14px;
+}
+
+.name-time{}
+.name-time p{
+	padding-top: 10px;
+	float: right;
+	color: #C9C5C7;
+}
+.name-time p i{
+	padding-right:5px;
+}
+
+
+.me-text-content{
+	overflow: hidden;
+	border-bottom: 2px dotted #DDD;
+	width: 95%;
+	margin: auto;
+	padding: 10px 0;
+	
+}
+
+.me-time{}
+.me-time p{
+	padding-top: 10px;
+	float: left;
+	color: #C9C5C7;
+}
+.me-time p i{
+	padding-right:5px;
+}
+
+.me-text{}
+.me-text h3{
+	font-size:18px;
+	float:right;
+	overflow:hidden;
+}
+.me-text p{
+	color:#666;
+	font-size:14px;
+	overflow:hidden;
+	float:right;
+}
+.me-image{
+	width:56px ;
+	height:60px;
+}
+.me-image img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	padding-top: 10px;
+}
+
+/* message-area */
+
+.message-area{
+	overflow:hidden;
+	padding:20px 0;
+	text-align:center;
+}
+.msg{}
+.msg i{
+	width: 55px;
+	height: 55px;
+	font-size: 24px;
+	border: 1px solid #DC4487;
+	text-align: center;
+	padding: 13px;
+	border-radius: 50%;
+	color:#DC4487;
+	margin-left:4%;
+	cursor:pointer;
+	margin-bottom:10px;
+}
+
+.msg-input{
+	margin-bottom:10px;
+}
+.msg-input textarea{
+	height:50px;
+	width:100%;
+	border:1px solid #DDD;
+	border-radius:2px;
+	padding: 11px 6px;
+	font-size: 17px;
+}
+
+.msg-button{}
+.msg-button input[type="submit"]{
+	background: #E36199 none repeat scroll 0% 0%;
+	padding: 13px 15px;
+	color: #FFF;
+	text-transform: uppercase;
+	border: medium none;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+  /*****************************************************/
+ /**************       Main Content Area  *************/
+/*****************************************************/
+
+
+@media all and (max-width:768px) {
+	.button-one{
+		float:none;
+		text-align:center;
+	}
+	.button-a{
+		text-align:center;
+		margin-bottom:20px;
+	}
+	.button-a a{
+		width:90%;
+		margin:auto;
+		display:block;
+	}
+	
+	.nav > li{
+		border-bottom:1px solid #419AEE;
+	}
+	.nav > li:first-child{
+		border-top:1px solid #419AEE;
+	}
+	
+	
+}
